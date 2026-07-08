@@ -1,0 +1,29 @@
+venv/
+__pycache__/
+.venv/
+.env
+.env.local
+*.pyc
+dist/
+build/
+uploads/
+node_modules/
+.DS_Store# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db

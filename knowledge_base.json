@@ -1,0 +1,248 @@
+{
+  "account": [
+    {
+      "title": "Account creation",
+      "summary": "Users can create an account using their email address and verify it through a confirmation email.",
+      "keywords": "signup register create account new account sign up",
+      "resolution": "Click Sign Up, enter your details, verify your email, and sign in."
+    },
+    {
+      "title": "Password reset",
+      "summary": "If a user cannot log in, they should reset their password using the Forgot Password option.",
+      "keywords": "password forgot login sign in access reset password",
+      "resolution": "Click Forgot Password, enter the registered email, open the reset email, and create a new password."
+    },
+    {
+      "title": "Verification email not received",
+      "summary": "Verification emails may be delayed or filtered into spam.",
+      "keywords": "verification email otp email not received verify account",
+      "resolution": "Check the spam folder, wait a few minutes, resend the verification email, and ensure the email address is correct."
+    },
+    {
+      "title": "Account locked",
+      "summary": "Accounts are temporarily locked after multiple failed login attempts.",
+      "keywords": "locked account login failed too many attempts",
+      "resolution": "Wait 30 minutes or reset your password before trying again."
+    },
+    {
+      "title": "Change email address",
+      "summary": "Users can update their registered email address.",
+      "keywords": "change email update email registered email",
+      "resolution": "Go to Settings > Account > Change Email and verify the new email."
+    },
+    {
+      "title": "Delete account",
+      "summary": "Users may permanently delete their account from account settings.",
+      "keywords": "delete account remove account close account",
+      "resolution": "Navigate to Settings > Privacy > Delete Account. This action cannot be undone."
+    }
+  ],
+  "subscriptions": [
+    {
+      "title": "Free plan",
+      "summary": "The Free plan includes basic features with limited usage.",
+      "keywords": "free plan starter free tier basic",
+      "resolution": "Free plan includes 3 projects, 1 GB storage, and community support."
+    },
+    {
+      "title": "Premium plan",
+      "summary": "Premium includes advanced analytics, priority support, API access, unlimited projects, and increased storage.",
+      "keywords": "premium plan pro features subscription paid",
+      "resolution": "Explain Premium features and compare them with the Free or Standard plan."
+    },
+    {
+      "title": "Upgrade subscription",
+      "summary": "Users can upgrade their subscription at any time.",
+      "keywords": "upgrade plan premium subscription",
+      "resolution": "Go to Billing > Upgrade Plan and choose the desired subscription."
+    },
+    {
+      "title": "Downgrade subscription",
+      "summary": "Users may downgrade at the end of the current billing cycle.",
+      "keywords": "downgrade cancel premium lower plan",
+      "resolution": "Downgrade through Billing settings. Changes take effect during the next billing cycle."
+    },
+    {
+      "title": "Free trial",
+      "summary": "A 14-day free trial is available for new users.",
+      "keywords": "trial free trial demo",
+      "resolution": "Users can activate the trial without providing a credit card."
+    }
+  ],
+  "billing": [
+    {
+      "title": "Billing issue",
+      "summary": "Billing issues are usually caused by failed payments, expired cards, or duplicate subscriptions.",
+      "keywords": "billing payment charge invoice subscription refund",
+      "resolution": "Verify invoices, payment method, and subscription details before escalating."
+    },
+    {
+      "title": "Payment failed",
+      "summary": "Payments may fail because of insufficient balance, expired cards, incorrect details, or bank rejection.",
+      "keywords": "payment failed declined card transaction failed",
+      "resolution": "Verify card details, available balance, and retry using another payment method."
+    },
+    {
+      "title": "Duplicate charge",
+      "summary": "Occasionally users may see duplicate transactions.",
+      "keywords": "charged twice duplicate charge double payment",
+      "resolution": "Review invoice history and collect payment details before escalating."
+    },
+    {
+      "title": "Refund request",
+      "summary": "Eligible purchases may be refunded within the refund policy period.",
+      "keywords": "refund money back cancel payment",
+      "resolution": "Verify purchase eligibility and initiate the refund request if applicable."
+    },
+    {
+      "title": "Download invoice",
+      "summary": "Invoices can be downloaded from Billing settings.",
+      "keywords": "invoice receipt billing history pdf receipt",
+      "resolution": "Navigate to Billing > Invoices and download the required invoice."
+    }
+  ],
+  "troubleshooting": [
+    {
+      "title": "App crash",
+      "summary": "The application crashes unexpectedly during use.",
+      "keywords": "crash app not working bug error closes automatically",
+      "resolution": "Update the app, restart the device, clear cache, and reinstall if necessary."
+    },
+    {
+      "title": "Dashboard not loading",
+      "summary": "The dashboard does not load after signing in.",
+      "keywords": "dashboard loading blank page loading issue",
+      "resolution": "Refresh the page, clear browser cache, and verify your internet connection."
+    },
+    {
+      "title": "Upload failed",
+      "summary": "File uploads may fail because of unsupported formats or size limits.",
+      "keywords": "upload failed file upload attachment document",
+      "resolution": "Verify the file type, ensure it is below 100 MB, and retry."
+    },
+    {
+      "title": "Slow performance",
+      "summary": "The application responds slowly.",
+      "keywords": "slow lag performance freezing",
+      "resolution": "Close unnecessary tabs, restart the browser, clear cache, and check internet speed."
+    },
+    {
+      "title": "500 Internal Server Error",
+      "summary": "The server encountered an unexpected error.",
+      "keywords": "500 internal server error server issue",
+      "resolution": "Retry after a few minutes. If the issue persists, escalate."
+    },
+    {
+      "title": "404 Error",
+      "summary": "The requested page or resource could not be found.",
+      "keywords": "404 page not found missing url",
+      "resolution": "Verify the URL and ensure the resource exists."
+    },
+    {
+      "title": "403 Forbidden",
+      "summary": "The user does not have permission to access the requested resource.",
+      "keywords": "403 forbidden permission denied access denied",
+      "resolution": "Verify permissions and ensure the correct account is being used."
+    }
+  ],
+  "security": [
+    {
+      "title": "Enable two-factor authentication",
+      "summary": "Users can enable two-factor authentication to improve account security.",
+      "keywords": "2fa mfa authenticator security otp",
+      "resolution": "Go to Settings > Security > Enable Two-Factor Authentication."
+    },
+    {
+      "title": "Account hacked",
+      "summary": "Users believe their account has been compromised.",
+      "keywords": "hack hacked compromised security breach",
+      "resolution": "Reset the password immediately, enable 2FA, and escalate to human support."
+    },
+    {
+      "title": "Data encryption",
+      "summary": "Customer data is encrypted during storage and transmission.",
+      "keywords": "encryption security privacy data protection",
+      "resolution": "Explain that HTTPS, TLS, and AES-256 encryption are used."
+    }
+  ],
+  "files": [
+    {
+      "title": "Supported file formats",
+      "summary": "The application supports multiple document and image formats.",
+      "keywords": "pdf docx txt csv png jpg upload formats",
+      "resolution": "Supported formats are PDF, DOCX, TXT, CSV, JPG, and PNG."
+    },
+    {
+      "title": "Maximum upload size",
+      "summary": "Uploaded files must not exceed the supported limit.",
+      "keywords": "file size upload limit maximum size",
+      "resolution": "Maximum supported file size is 100 MB."
+    }
+  ],
+  "api": [
+    {
+      "title": "API authentication",
+      "summary": "API requests require Bearer Token authentication.",
+      "keywords": "api authentication bearer token api key",
+      "resolution": "Include Authorization: Bearer YOUR_API_KEY in request headers."
+    },
+    {
+      "title": "API rate limit",
+      "summary": "API usage is limited to prevent abuse.",
+      "keywords": "rate limit api limit requests",
+      "resolution": "The API supports up to 100 requests per minute."
+    }
+  ],
+  "notifications": [
+    {
+      "title": "Notifications not received",
+      "summary": "Users are not receiving email or push notifications.",
+      "keywords": "notification email push alerts not receiving",
+      "resolution": "Verify notification settings, spam folder, and device notification permissions."
+    }
+  ],
+  "team": [
+    {
+      "title": "Invite team members",
+      "summary": "Administrators can invite new users to collaborate.",
+      "keywords": "invite team member add user collaboration",
+      "resolution": "Go to Settings > Team > Invite User and enter their email address."
+    }
+  ],
+  "backup": [
+    {
+      "title": "Automatic backup",
+      "summary": "The system automatically backs up customer data every 24 hours.",
+      "keywords": "backup restore recovery",
+      "resolution": "Explain that automatic backups occur once every 24 hours."
+    },
+    {
+      "title": "Export data",
+      "summary": "Users can export their data in multiple formats.",
+      "keywords": "export download csv excel pdf",
+      "resolution": "Export data from Settings > Export in CSV, Excel, or PDF format."
+    }
+  ],
+  "support": [
+    {
+      "title": "Support hours",
+      "summary": "Customer support is available during business hours.",
+      "keywords": "support contact hours help",
+      "resolution": "Support is available Monday through Friday from 9:00 AM to 6:00 PM."
+    },
+    {
+      "title": "Priority support",
+      "summary": "Premium customers receive faster response times.",
+      "keywords": "priority support premium urgent",
+      "resolution": "Priority support responds within approximately 2 hours."
+    }
+  ],
+  "escalation": [
+    {
+      "title": "Cases requiring escalation",
+      "summary": "Critical issues should be transferred to a human support agent.",
+      "keywords": "escalate escalation human support urgent hacked data loss outage legal refund dispute",
+      "resolution": "Collect customer information, summarize the issue, include troubleshooting steps already attempted, and escalate to a human agent."
+    }
+  ]
+}
