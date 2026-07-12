@@ -7,6 +7,8 @@ from typing import Dict, List, Tuple
 import streamlit as st
 from dotenv import load_dotenv
 
+from prompts import SYSTEM_PROMPT
+
 try:
     from openai import OpenAI
 except ImportError:  # pragma: no cover
@@ -158,11 +160,7 @@ def llm_enhanced_response(query: str, history: List[Dict[str, str]]) -> Tuple[st
                 base_url = base_url.rsplit("/chat/completions", 1)[0]
         model = os.getenv("LLM_MODEL") or "gpt-4o-mini"
         client = OpenAI(api_key=api_key, base_url=base_url)
-        system_prompt = (
-            "You are a helpful customer support AI. "
-            "Answer product or service-related questions, ask follow-up questions when needed, "
-            "troubleshoot common issues using the provided knowledge base, and escalate complex issues with a summary."
-        )
+        system_prompt = SYSTEM_PROMPT
         history_text = "\n".join(f"{item['role']}: {item['content']}" for item in history[-6:])
         completion = client.chat.completions.create(
             model=model,
