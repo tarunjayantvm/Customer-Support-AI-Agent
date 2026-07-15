@@ -127,7 +127,7 @@ streamlit run app.py
 
 ---
 
-link : https://customer-support-ai-agent-ii5dpcxqqole54vevntxtc.streamlit.app/
+Deployed link : https://customer-support-ai-agent-ii5dpcxqqole54vevntxtc.streamlit.app/
 
 ## ⚠️ Disclaimer
 
